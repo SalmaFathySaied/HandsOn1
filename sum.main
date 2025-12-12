@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b);
+
+int main()
+{
+    int result = sum(1, 2);
+    cout << "Sum is: " << result << endl;
+    return 0;
+}
+
+
+int sum(int a, int b)
+{
+    int result = a + b;  // Don't redeclare a and b
+    return result;       // Return the sum
+}
+//ghayart feha
