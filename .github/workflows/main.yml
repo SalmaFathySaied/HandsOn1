@@ -1,0 +1,8 @@
+name: ayhaga
+on: push
+jobs: 
+  jjobaya:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ayhagabrdo 
+        run: echo "The Job khara ${{ github.ref }}" 
